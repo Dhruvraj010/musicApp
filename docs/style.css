@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-color: beige;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+     font-family: "Alumni Sans", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 56px;
+    padding: 0 8px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+
+    
+ 
+
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin: 12px 12px;
+   
+    
+}
+.icons i{
+    cursor: pointer;
+    margin: 0 12px;
+}
+#progressbar{
+    width: 70vw;
+    cursor: pointer;
+
+}
+
+.songitemcontainer{
+    margin-top: 30px;
+}
+
+.songitem{
+    height: 40px;
+    display: flex;
+    width: 280px;
+    
+    background-color: crimson;
+    color: white;
+    margin: 5px 0; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.songitem img{
+    width: 40px;
+    margin: 0 13px;
+    border-radius: 30px;
+    
+}
+
+.songinfo img{
+    height: 40px;
+    width: 120px;
+}
+
+.songinfo{
+    position: absolute;
+    left: 15vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: purple;
+  }
+}
